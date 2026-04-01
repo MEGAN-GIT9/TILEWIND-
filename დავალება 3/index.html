@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tailwind</title>
+        <script src="https://cdn.tailwindcss.com/"></script>
+    </head>
+    <body class=" bg-slate-100 flex min-h-screen items-center p-4 justify-center">
+        <div class="flex flex-col md:flex-row bg-white shadow-lg ">
+            <!-- --left side-- -->
+            <div class="md:w-[350px] w-full p-8 text-center text-white bg-gradient-to-b  from-indigo-500 rounded-3xl  to-blue-700 flex flex-col items-center">
+                <h2 class="text-lg opacity-80 mb-6 p-8 ">Your Result</h2>
+                <!---circle-- -->
+                <div class="w-40 h-40 rounded-full flex flex-col items-center justify-center mb-6 bg-gradient-to-b from-indigo-700 to-blue-500 to-transparent">
+                    <h1 class="text-5xl font-bold mb-6">76</h1>
+                    <p class="text-1xl opacity-60 ">of 100</p>
+                </div>
+                <h3 class="font-semibold mb-2 text-2xl">GREAT</h3>
+                <h5 class="mb-3  opacity-70  ">Your performance exceed 65% of the people conducting the test here!</h5>
+            </div>
+            <!-- --right side-- -->
+            <div class="bg-white md:w-[350px] w-full flex-col p-8  text-black justify-center items-center">
+                <h2 class="font-semibold mb-2 text-2xl ">Summary</h2>
+                <!-- --items--- -->
+                <div class="space-y-4">
+                    <div class="flex justify-between p-4 bg-red-50 p-3 rounded-xl">
+                        <div class="flex items-center">
+                            <span class=" font-medium flex gap-2 text-[#FF5555]">
+                                <img src="iconoir_flash.svg" width="20">Reaction
+                            </span>
+                        </div>
+                        <div class="flex gap-1">
+                            <span class="text-gray-800  font-bold"> 80</span>
+                            <span class="text-gray-400  font-semibold">/100</span>
+                        </div>
+                    </div>
+                    <!-- ---- -->
+                    <div class="flex justify-between p-4 bg-yellow-50 p-3 rounded-xl">
+                        <div class="flex items-center">
+                            <span class=" font-medium flex gap-2 text-[#FFB21E]">
+                                <img src="iconoir_brain.svg" width="20">Memory
+                            </span>
+                        </div>
+                        <div class="flex gap-1">
+                            <span class="text-gray-800  font-bold"> 92</span>
+                            <span class="text-gray-400  font-semibold">/100</span>
+                        </div>
+                    </div>
+                    <!-- ---- -->
+                    <div class="space-y-4">
+                        <div class="flex justify-between p-4 bg-green-50 p-3 rounded-xl">
+                            <div class="flex items-center">
+                                <span class=" font-medium flex gap-2 text-[#00BB8F]">
+                                    <img src="Vector.png" width="20">Verbal
+                                </span>
+                            </div>
+                            <div class="flex gap-1">
+                                <span class="text-gray-800  font-bold"> 61</span>
+                                <span class="text-gray-400  font-semibold">/100</span>
+                            </div>
+                        </div>
+                        <!-- --- -->
+                        <div class="space-y-4">
+                            <div class="flex justify-between p-4 bg-blue-50 p-3 rounded-xl">
+                                <div class="flex items-center">
+                                    <span class=" font-medium flex gap-2 text-[#1125D6]">
+                                        <img src="iconoir_eye-empty.svg" width="20">Visual
+                                    </span>
+                                </div>
+                                <div class="flex gap-1">
+                                    <span class="text-gray-800  font-bold"> 73</span>
+                                    <span class="text-gray-400  font-semibold">/100</span>
+                                </div>
+                            </div>
+                            <button class="w-full bg-[#303B59] mt-8 py-3 rounded-full text-white md:bg-[#2F2CE9] hover:opacity-90 ">Continue</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
